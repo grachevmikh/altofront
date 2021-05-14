@@ -1,0 +1,32 @@
+:root {
+    --bg-color: #075CB5;
+    --bnt-color: #0275D8;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.btn-primary {
+    background-color: var(--bnt-color);
+    border-color: var(--bnt-color);
+}
+.bg-primary {
+    background-color: var(--bg-color)!important;
+}
+header .logo {
+    cursor: pointer;
+    height: 62px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+header .logo:hover {
+    text-decoration: none;
+}
+header .logo img {
+    margin-right: 7px;
+}
